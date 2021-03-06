@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;color: white;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+    height: 50%;
+    top: 55%;
+    left: 50%;
+    padding: 5rem 5rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to bottom, blue,lime);
+}
+input{
+    display: inline-block;
+    margin: 0px;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+textarea{
+    display: inline-block;
+    margin: 0px;
+    resize: none;
+    width: 50vw;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+}
+#fname{
+    top: 10vh;
+}
+#lname{
+    top: 15vh;
+}
+#from{
+    top: 20vh;
+}
+#to{
+    top: 25vh;
+}
+#subject{
+    top: 30vh;
+}
+#message{
+    top: 45vh;
+}
+#btn{
+    top: 65vh;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:6vw;
+    max-height: 4vh;
+    position: absolute;
+    top: 10px;
+    padding: 0px;
+    margin: 0px;
+}
