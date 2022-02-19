@@ -17,7 +17,7 @@ if (isset($_POST['btn'])) {
   
 
 
-  $txt = "You have recieved a message from " . $fname . " " . $lname . " using an email server created by Michael Parenti \n https://portfolio1010.000webhostapp.com/code.html \n https://github.com/M-Coder-3920 \n Here is your message:\n\n" . $message;
+  $txt = "You have recieved a message from " . $fname . " " . $lname . " using an email server created by Michael Parenti \n https://github.com/M-Coder-3920 \n \n Here is your message:\n\n" . $message;
    
   
   
@@ -49,7 +49,7 @@ if (isset($_POST['btn'])) {
   
 
 
-  $txt = "You have recieved a message from " . $fname . " " . $lname . " using an email server created by Michael Parenti \n https://portfolio1010.000webhostapp.com/code.html \n https://github.com/M-Coder-3920 \n Here is your message:\n\n" . $message;
+  $txt = "You have recieved a message from " . $fname . " " . $lname . " using an email server created by Michael Parenti \n https://github.com/M-Coder-3920 \n \n Here is your message:\n\n" . $message;
    
   
   
